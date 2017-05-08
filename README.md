@@ -1,19 +1,12 @@
-JRAKE
+ElasticsearchMonitor
 =====
 
-Java implementation of Rapid Automatic Keyword Extraction Algorithm
+Use elasticsearch sql plugin & mysql, query some meaningful results
 
-Description
+Reference
 ===========
 
-This is basically no-frills straightforward java port of the [python](https://github.com/aneesha/RAKE) implementation.
-Planning to use it for one of my home project idea.
-
-TODO
-====
-1. mavenize
-2. nicer public api
-3. more tests
+Thanks for great code by NLPchina [elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) implementation.
 
 License
 =======
