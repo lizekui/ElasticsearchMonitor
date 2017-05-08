@@ -17,8 +17,8 @@ import java.sql.Statement;
 public class DBHelper {
 	public static final String url = "jdbc:mysql://172.20.67.92:3308/xhs_show";
 	public static final String name = "com.mysql.jdbc.Driver";
-	public static final String user = "isi";
-	public static final String password = "isi%2015";
+	public static final String user = "$USER$";
+	public static final String password = "$PASSWORD$";
 
 	public static Connection getConn() {
 		Connection conn = null;
